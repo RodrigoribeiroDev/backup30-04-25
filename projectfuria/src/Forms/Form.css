@@ -1,0 +1,77 @@
+.containerForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.ipt {
+    width: 250px;
+    height: 30px;
+    padding: 8px;
+    margin: 5px;
+    outline: none;
+    border: 0;
+    position: relative;
+    left: 300px;
+    box-shadow: 2px 4px 4px #3f4248;
+}
+.btn-enter{
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #101010;
+    color: #fff;
+    border: 0;
+    border-radius: 2px;
+    margin: 2px;
+    position: relative;
+    left: 230px;
+    top: 10px;
+    transition: transform 0.3s ease;
+    display: flex;
+}
+.btn-enter:hover{
+    transform: scale(1.05);
+}
+.containerForm button{
+    border: 0;
+    background-color: transparent;
+    position: relative;
+    left: 410px;
+    top: -40px;
+}
+.containerForm .link{
+    text-decoration: none;
+    color: #101010;
+    font-size: 10px;
+    transition: transform 0.3s ease;
+    position: relative;
+    left: 220px;
+    top: -20px;
+}
+.containerForm .link:hover{
+    color: rgb(60, 60, 201);
+    transform: scale(1.05);
+}
+.containerBtn div{
+    position: relative;
+    left: 380px;
+    bottom: 95px;
+    margin: -10px;
+}
+.containerBtn p{
+    font-size: 10px;
+}
+.containerBtn a{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.link-home {
+    text-decoration: none;
+}
+.link-register {
+    text-decoration: none;
+}

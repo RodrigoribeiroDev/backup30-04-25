@@ -1,0 +1,65 @@
+.containerRegister {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .iptRegister {
+    width: 250px;
+    height: 30px;
+    padding: 8px;
+    margin: 5px;
+    outline: none;
+    border: 0;
+    position: relative;
+    left: 300px;
+    box-shadow: 2px 4px 4px #3f4248;
+  }
+  .btnShowPassword {
+    position: relative;
+    left: 410px;
+    top: -60px;
+  }
+  .containerRegister span {
+    display: flex;
+    font-size: 15px;
+    gap: 5px;
+  }
+  .terms {
+    position: relative;
+    left: 300px;
+    top: -50px;
+  }
+  .btn-send {
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #101010;
+    color: #fff;
+    border: 0;
+    border-radius: 2px;
+    margin: 2px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    left: 15px;
+    top: -10px;
+    transition: transform 0.3s ease;
+    display: flex;
+  }
+  .btn-send:hover {
+    transform: scale(1.05);
+  }
+  .message {
+    position: absolute;
+    width: 300px;
+    top: -100px;
+    right: 15rem;
+    padding: 10px 20px;
+    color: #a00;
+  }
+
+  .terms-link:hover{
+    color: #12355B;
+  }
