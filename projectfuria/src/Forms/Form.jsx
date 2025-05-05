@@ -46,11 +46,11 @@ const Form = () => {
          >
          <input type="submit" 
          value="Cadastre-se" 
-         className='btn-enter'/>
+         className='btn-register'/>
          </Link>
          
 
-        <div>
+        <div className='icons-login'>
           <p>Ou entrar com</p>
           <a>
           <GrGoogle size={22}/>

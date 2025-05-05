@@ -53,7 +53,7 @@ const Register = () => {
     
   return (
     <div>
-        <form>
+        <form action="https://api.sheetmonkey.io/form/nbcbYxxDyZAFfsX7EzaxtN" method="post">
             <div className='containerRegister'>
 
                 <input type="text" 

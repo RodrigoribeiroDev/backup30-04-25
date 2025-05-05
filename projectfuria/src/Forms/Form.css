@@ -26,13 +26,33 @@
     border-radius: 2px;
     margin: 2px;
     position: relative;
-    left: 230px;
-    top: 10px;
+    left: 120px;
+    top: 30px;
+    transition: transform 0.3s ease;
+    display: flex;
+}
+.btn-register{
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #101010;
+    color: #fff;
+    border: 0;
+    border-radius: 2px;
+    margin: 2px;
+    position: absolute;
+    right: 249px;
     transition: transform 0.3s ease;
     display: flex;
 }
 .btn-enter:hover{
     transform: scale(1.05);
+}
+.btn-register:hover{
+    transform: scale(1.05);
+}
+.containerBtn{
+    margin-bottom: 60px;
 }
 .containerForm button{
     border: 0;
@@ -54,9 +74,9 @@
     color: rgb(60, 60, 201);
     transform: scale(1.05);
 }
-.containerBtn div{
-    position: relative;
-    left: 380px;
+.icons-login{
+    position: absolute;
+    right: 170px;
     bottom: 95px;
     margin: -10px;
 }
